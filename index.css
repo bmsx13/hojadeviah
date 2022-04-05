@@ -1,0 +1,107 @@
+body{
+   margin:0;
+   padding:0;
+   background: #86DEB7
+}
+.name{
+width: 100%;
+height: 300px;
+background-color: #63B995;
+transform: skewY(5deg);
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 40%;
+}
+
+.name .content .p-1 {
+    color:#423E28;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(-5deg);
+    margin-bottom: 0;
+   
+}
+
+.name .content .p-2 {
+    color:#423E28;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    transform: skewY(-5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.name .img {
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(-5deg);
+    overflow:hidden;
+
+}
+
+.name .img img{
+    width: 185px;
+    height: 231px;
+
+}
+.info {
+    width: 90%;
+    height: auto;
+    background: #63B995;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.info .tituloseccion {
+    color: #423E28;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #423E28 solid;
+
+}
+ 
+.info .tituloinfo{
+    color: #423E28;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.info .infoinfo{
+    color: #423E28;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    
+}
+
+.info span {
+    display: inline-block;
+    width: auto;    
+    height: auto;
+    font-weight: bolder;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #86DEB7;
+    color: #423E28;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
